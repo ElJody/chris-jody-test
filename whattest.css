@@ -1,0 +1,55 @@
+body {
+    display: flex
+    height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 12px;
+}
+
+main{
+    display: flex;
+    
+}
+
+.background img{
+    display: flex;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 1024px;
+    object-fit: cover;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #000;
+    background-color: white;
+    height: 90%;
+    width: 80%;
+    padding: 10px;
+}
+
+#sidebar {
+    background-image: url(./images/nav_side_sub.jpg);
+    background-repeat: no-repeat;
+    height: max-content;
+    width: max-content;
+    background-size: 100% 100%;
+    padding: 15px;
+    align-content: left;
+    
+    color: blanchedalmond;
+
+}
